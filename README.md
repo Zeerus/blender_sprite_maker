@@ -1,5 +1,8 @@
 # Isometric Sprite Generator for Blender
 
+
+!!ONLY TESTED WITH BLENDER 2.79!!
+
 To install:
 - Edit the config.yml file to point to the blender executable for blender_path
 - Edit the config.yml file to point to the desired blend file
