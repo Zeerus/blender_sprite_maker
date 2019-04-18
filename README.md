@@ -1,12 +1,11 @@
 # Isometric Sprite Generator for Blender
 
 To install:
-- Run install.bat as administrator or open powershell and run `Install-Module powershell-yaml`
-- Find your blender python dir (under the blender directory)
-- From a command line run `/path/to/blender/python.exe -m ensurepip`
-- Then run `/path/to/blender/python.exe -m pip install pyyaml Pillow`
 - Edit the config.yml file to point to the blender executable for blender_path
 - Edit the config.yml file to point to the desired blend file
+- Edit the config.yml file to point to the blender python executable for blender_path
+  - Usually this is under your blender install directory e.g. `Blender/version_num/python/bin/python.exe`
+- Run install.ps1 as administrator
 
 To run: `blender -b /path/to/blend_file.blend -P prite_script_blender.py` OR the batch file `run.ps1` for the lazy
 
