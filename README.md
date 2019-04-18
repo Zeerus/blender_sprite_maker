@@ -4,7 +4,7 @@ To install:
 - Run install.bat as administrator or open powershell and run `Install-Module powershell-yaml`
 - Find your blender python dir (under the blender directory)
 - From a command line run `/path/to/blender/python.exe -m ensurepip`
-- Then run /path/to/blender/python.exe -m pip install pyyaml Pillow`
+- Then run `/path/to/blender/python.exe -m pip install pyyaml Pillow`
 - Edit the config.yml file to point to the blender executable for blender_path
 - Edit the config.yml file to point to the desired blend file
 
