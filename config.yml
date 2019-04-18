@@ -1,0 +1,17 @@
+blender_path: "E:\\Program Files\\Blender Foundation\\Blender\\blender.exe"
+blend_file: "E:\\Program Files\\Blender Foundation\\Blender\\UE4_Mannequinn_Template.blend"
+
+#Directory to output renders to, defaults to ./render/ under the script dir
+render_output_dir: null
+
+#Number of frames from 0 to render in Blender
+frame_length: 40
+#Number of frames in Blender to skip between rendered cells
+frame_step: 2
+
+#Name for outputted sprite sheet, defaults to 'sheet'
+sheet_name: null
+
+#Individual render height and width to use in pixels
+cell_width: null
+cell_height: null
