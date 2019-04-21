@@ -1,14 +1,22 @@
 blender_python_path: "E:\\Program Files\\Blender Foundation\\Blender\\2.79\\python\\bin\\python.exe"
 blender_path: "E:\\Program Files\\Blender Foundation\\Blender\\blender.exe"
-blend_file: "E:\\Program Files\\Blender Foundation\\Blender\\UE4_Mannequinn_Template.blend"
+blend_file: "E:\\workspace\\blender_sprite_maker\\zombie_being_hit.blend"
+#blend_file: "E:\\workspace\\blender_sprite_maker\\punch.blend"
 
 #Directory to output renders to, defaults to ./render/ under the script dir
 render_output_dir: null
 
 #Number of frames from 0 to render in Blender
-frame_length: 40
+#frame_length: 2
 #Number of frames in Blender to skip between rendered cells
-frame_step: 2
+#frame_step: 1
+
+frame_lengths:
+    - 40
+
+
+frame_steps:
+    - 2.0
 
 #Name for outputted sprite sheet, defaults to 'sheet'
 sheet_name: null
